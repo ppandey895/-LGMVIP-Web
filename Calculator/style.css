@@ -1,0 +1,68 @@
+:root {
+	font-size: 16px;
+}
+
+body{
+	margin: 0px 0px;
+	padding: 0px;
+	font-family: 'Helvetica';
+	background: linear-gradient(45deg, #925DFF, #5DB6FB);
+	color: ghostwhite;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#input{
+	font-family: 'Helvetica';
+	width: clamp(200px, 40%, 240px);
+	height: 30px;
+	margin: 0 0 5px 36px;
+	background: rgba(255, 255, 255, 0.2);
+	color: #333;
+	font-size: 1rem;
+	padding: 0.4rem 0.8rem;
+	text-align: right;
+	border: 2px rgb(0 0 0 / 0.6) solid;
+	border-radius: 6px;
+}
+
+#header{
+	margin-left: 30px;
+}
+
+ul{
+	margin: 0px;
+	width: clamp(200px, 40%, 260px);
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	display: inline-block;
+	margin-top: 0.9rem;
+}
+
+button{
+	border: none;
+	border-radius: 5px;
+	width: 50px;
+	height: 50px;
+	background: rgb(0 0 0 / 0.6);
+
+	color: white;
+	font-size: 1.3rem;
+	box-shadow: 4px 4px 2px rgb(0 0 0 / 0.1),
+			   -4px -4px 4px rgb(255 255 255 / 0.1),
+			   inset 4px 4px 4px rgb(0 0 0 / 0.2),
+			   inset -4px -4px 4px rgb(255 255 255 / 0.2);	
+}
+
+button:active {
+	box-shadow: 4px 4px 4px rgb(0 0 0 / 0.1),
+			   -4px -4px 4px rgb(255 255 255 / 0.15),
+				inset 4px 4px 4px rgb(0 0 0 / 0.05),
+			   inset -4px -4px 4px rgb(255 255 255 / 0.05);
+}
