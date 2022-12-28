@@ -1,2 +1,2 @@
-# -LGMVIP-Web
+# LGMVIP-Web
 LetsGrowMore Internship Projects
